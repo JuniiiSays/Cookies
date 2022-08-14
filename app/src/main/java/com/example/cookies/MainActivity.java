@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
         imageView.setImageResource(R.drawable.after_cookie);
         // TODO: Find a reference to the TextView in the layout. Change the text.
         TextView textView = (TextView) findViewById(R.id.status_text_view);
-        textView.setText("I'm so full");
+        textView.setText(R.string.cookie_eaten);
     }
 }
